@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>File Metadata Microservice - A challenge for freeCodeCamp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css" type="text/css" />
+    <link href="/public/css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="ui text container segment">
+      <h1 class="ui header">File Metadata Microservice</h1>
+      <p>
+        This is a practice Assignment for freeCodeCamp. Use the simple html form below to
+        upload any file. The server will read out some metadata about that file and
+        return it as a JSON object. The file will not be saved on the server.
+      </p>
+      <div class="ui segment">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+          Select a file to upload:<br>
+          <input type="file" name="file">
+          <input type="submit" value="Submit File" name="submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
